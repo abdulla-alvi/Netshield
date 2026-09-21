@@ -1,0 +1,13 @@
+# NetShield AI dark SOC theme — drives Streamlit widgets (dataframe, selectbox, inputs)
+# so they are not forced to light/white surfaces.
+
+[theme]
+base = "dark"
+primaryColor = "#22d3ee"
+backgroundColor = "#050505"
+secondaryBackgroundColor = "#14141e"
+textColor = "#e2e8f0"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
