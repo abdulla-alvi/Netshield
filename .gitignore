@@ -1,0 +1,35 @@
+# Secrets — never commit
+.env
+.env.local
+mysql.password
+*.pem
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large ML artifacts (train on clone or use Git LFS if you must version them)
+edge_bert_quantized.pt
+nss_tokenizer.pt
+nss_scaler.pkl
+
+# Logs
+*.log
+
+# Uncomment if training CSVs under data/ are too large for GitHub:
+# data/**/*.csv
